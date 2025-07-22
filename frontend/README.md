@@ -90,4 +90,42 @@ frontend/
 
 ---
 
-_For questions, see code comments or reach out to the maintainer._
+## 🧪 Quality Gates & Dev Workflow
+
+Below are real screenshots from the current dev setup, showing the end-to-end quality process for Orbital Copilot’s frontend:
+
+### 1. **E2E Test Results**  
+Full dashboard flow tested with **Cypress** (`frontend/screenshots/e2e_test.png`):
+
+![E2E Test](./screenshots/e2e_test.png)
+
+---
+
+### 2. **Jest Unit, Integration & Snapshot Coverage**  
+React components and hooks have strong Jest/RTL + snapshot test coverage (`frontend/screenshots/tests_snapshot_tests.png`):
+
+![Jest Coverage & Snapshots](./screenshots/tests_snapshot_tests.png)
+
+---
+
+### 3. **Linting & Formatting**  
+Codebase passes **ESLint** (strict) and **Prettier** (auto-formatting) checks (`frontend/screenshots/eslint_prettier.png`):
+
+![ESLint & Prettier](./screenshots/eslint_prettier.png)
+
+---
+
+### 4. **App Running in Dev Mode**  
+Example of the live dashboard running locally (`frontend/screenshots/app_running.png`):
+
+![Dashboard App](./screenshots/app_running.png)
+
+---
+
+## 📌 TODOs
+
+- [ ] Polish visual style & handle all edge cases in sorting/filtering.
+- [ ] Add more e2e scenarios (accessibility, mobile, etc).
+- [ ] Refactor and document remaining UI logic as time allows.
+
+---

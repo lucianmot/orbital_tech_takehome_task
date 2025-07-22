@@ -37,6 +37,20 @@ You can also access interactive docs at [http://127.0.0.1:8000/docs](http://127.
 
 ---
 
+## 3. Installing Frontend dependecies to run locally
+
+   ```bash
+   npm install
+   ```
+
+## 4. Running the Frontend App
+   ```bash
+   npm run dev
+   ```
+   Visit [http://localhost:5173/](http://localhost:5173/) in your browser.
+
+---
+
 
 # Orbital Tech Takehome Task
 
