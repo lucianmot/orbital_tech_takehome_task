@@ -9,6 +9,7 @@
     "test": "jest --verbose --coverage",
     "lint": "eslint .",
     "format": "prettier --write .",
+    "e2e": "cypress run",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -28,6 +29,7 @@
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react-swc": "^3.10.2",
     "autoprefixer": "^10.4.21",
+    "cypress": "^14.5.2",
     "eslint": "^9.30.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.3",
