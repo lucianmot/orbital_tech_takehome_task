@@ -94,13 +94,7 @@ You have access to two public API endpoints (no authentication required):
 - Please provide a README with clear instructions for running both backend and frontend, any setup steps, and any design/engineering decisions you made.
 - Comment your code and document any tradeoffs or shortcuts due to time constraints.
 - You may use any modern frameworks/libraries (Python, FastAPI, React, etc).
-- Be prepared to discuss:
-  - Why token ≈ 4 character estimation is used, and its real-world tradeoffs.
-  - How credit calculation logic might change for different models or pricing.
-  - Improvements you would make for token estimation in production.
-  - Caching/batching strategies for slow or rate-limited LLM APIs.
-  - How you would ensure fairness and transparency in billing to legal users.
-  - How you would communicate credit usage to users in the UI.
+- Be prepared to discuss the code you implemented
 - Try to spend no more than 3-4 hours on this exercise; you may leave partial implementations with TODOs if needed.
 
 ---
