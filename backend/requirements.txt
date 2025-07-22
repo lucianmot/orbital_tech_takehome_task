@@ -3,5 +3,6 @@ uvicorn
 httpx
 pydantic
 pytest
+pytest-asyncio
 black
 mypy
