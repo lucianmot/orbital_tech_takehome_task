@@ -1,3 +1,42 @@
+> **See [`backend/README.md`](backend/README.md) for detailed backend setup, architecture, and developer proof screenshots.**
+
+## 1. Installing Backend dependecies to run locally
+
+Navigate to the backend directory:
+
+```bash
+cd backend
+```
+
+Create and activate your virtual environment (if you haven’t already):
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+Install all required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 2. Running the Backend Server
+
+Use the provided script to activate your environment and start the FastAPI server:
+
+```bash
+./run-dev.sh
+```
+
+This will launch the API at [http://127.0.0.1:8000](http://127.0.0.1:8000).  
+You can also access interactive docs at [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs).
+
+---
+
+
 # Orbital Tech Takehome Task
 
 This repository contains my solution to the Orbital Copilot take-home assignment.  
