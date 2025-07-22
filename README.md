@@ -1,4 +1,5 @@
 > **See [`backend/README.md`](backend/README.md) for detailed backend setup, architecture, and developer proof screenshots.**
+> **See [`frontend/README.md`](frontend/README.md) for detailed frontend setup, development approach and developer proof screenshots.**
 
 ## 1. Installing Backend dependecies to run locally
 
